@@ -1,0 +1,8 @@
+title: Dovetail Agency & Collection
+description: Dovetail Agency & Collection — official site.
+url: https://dovetailagency.world
+baseurl: ""
+
+sass:
+  sass_dir: _sass
+  style: compressed

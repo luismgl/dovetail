@@ -1,0 +1,79 @@
+@use "variables" as *;
+
+a {
+	color: $text-primary;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+body {
+	align-items: center;
+	background-color: $background;
+	color: $text-black;
+	display: flex;
+	font-family: $font-sans;
+	font-size: 1.12rem;
+	justify-content: center;
+	letter-spacing: 0;
+	line-height: 1.6;
+	min-height: 100vh;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.dovetail-container {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 2rem;
+	text-align: center;
+}
+
+.sr-only {
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	clip: rect(0, 0, 0, 0);
+	border-width: 0;
+	white-space: nowrap;
+}
+
+.dovetail-logo {
+	height: auto;
+	margin-bottom: 2rem;
+	max-width: 100%;
+	width: 512px;
+}
+
+.dovetail-subtitle {
+	font-family: $font-sans;
+	font-size: inherit;
+	font-size: .84em;
+	font-weight: 400;
+	letter-spacing: 0.15em;
+	margin-bottom: 4rem;
+	text-transform: uppercase;
+}
+
+.dovetail-bio {
+	font-style: italic;
+	font-weight: 300;
+	max-width: 600px;
+	text-align: left;
+
+	a {
+		font-style: normal;
+	}
+}
+
+@media (max-width: $breakpoint-mobile) {
+	.dovetail-logo {
+		width: 360px;
+	}
+}
