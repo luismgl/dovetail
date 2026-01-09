@@ -4,5 +4,5 @@ url: https://dovetailagency.world
 baseurl: ""
 
 sass:
-  sass_dir: _sass
+  sass_dir: assets/css
   style: compressed

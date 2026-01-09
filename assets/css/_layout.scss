@@ -15,7 +15,7 @@ body {
 	font-size: 1.12rem;
 	justify-content: center;
 	letter-spacing: 0;
-	line-height: 1.6;
+	line-height: 1.52;
 	min-height: 100vh;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -62,18 +62,11 @@ body {
 }
 
 .dovetail-bio {
-	font-style: italic;
 	font-weight: 300;
 	max-width: 600px;
 	text-align: left;
 
 	a {
 		font-style: normal;
-	}
-}
-
-@media (max-width: $breakpoint-mobile) {
-	.dovetail-logo {
-		width: 360px;
 	}
 }
