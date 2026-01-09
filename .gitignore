@@ -4,5 +4,4 @@ _site/
 .bundle/
 vendor/
 .DS_Store
-.github
 node_modules/
